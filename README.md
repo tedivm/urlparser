@@ -6,13 +6,17 @@ This is a simple command line tool for extracting pieces (such as the scheme, po
 
 ```bash
 $ urlparser hostname http://google.com
-> google.com
+google.com
+$ urlparser hostname google.com
+google.com
 $ urlparser port http://google.com
-> 80
+80
 $ urlparser port https://google.com
-> 443
+443
+$ urlparser port https://example.com:9443
+9443
 $ urlparser scheme https://google.com
-> https
+https
 ```
 
 ## Help

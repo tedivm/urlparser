@@ -2,6 +2,14 @@
 
 This is a simple command line tool for extracting pieces (such as the scheme, port, or hostname) of a standard URL.
 
+
+## Install
+
+This project is available on the [pypi repository](https://pypi.org/project/urlparser/).
+
+`pip3 install urlparser`
+
+
 ## Usage
 
 ```bash
@@ -18,6 +26,7 @@ $ urlparser port https://example.com:9443
 $ urlparser scheme https://google.com
 https
 ```
+
 
 ## Help
 
@@ -39,3 +48,7 @@ Commands:
   scheme    Get scheme from URL
   username  Get username from URL
 ```
+
+## Contributing
+
+Development is managed on [Github](https://github.com/tedivm/urlparser) and pull requests are always appreciated.
